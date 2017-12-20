@@ -4,7 +4,10 @@ upsert('Client__c', 'Client_Code__c', fields(
   field('First_Name__c', dataValue('form.demographic_infoss.first_name'),
   field('Last_Name__c', dataValue('form.demographic_infoss.last_name'),
   field('Gender__c', dataValue('form.demographic_infoss.gender'),
-  field('Phone_Number__c', dataValue('form.demographic_infoss.phone')
+  field('Phone_Number__c', dataValue('form.demographic_infoss.phone'),
+  // Which one of these is the unique ID in Salesforce?
+  relationship('Village__r', 'Village_Code__c' dataValue('form.village')
+  // relationship('Village__r', 'Village_Code__c' dataValue('form.village_sf_id')
 ));
 
 // How are savings goals uniquely IDed in Salesforce?
