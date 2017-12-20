@@ -1,0 +1,207 @@
+{
+  "version": "205",
+  "uiversion": "1",
+  "type": "data",
+  "server_modified_on": "2017-12-18T11:05:50.438827Z",
+  "resource_uri": "",
+  "received_on": "2017-12-18T11:05:49.745176Z",
+  "problem": null,
+  "metadata": {
+    "username": "56107",
+    "userID": "b0993825c6424d8f8bb9c683eebf030d",
+    "timeStart": "2017-12-17T18:44:53.612000Z",
+    "timeEnd": "2017-12-17T18:46:21.263000Z",
+    "location": "11.977525243041812 -7.900411083995136 396.72 8.0",
+    "instanceID": "76c23027-151a-40d1-8f15-c3644bc6aaec",
+    "geo_point": null,
+    "deviceID": "353565088967695",
+    "commcare_version": "2.38.1",
+    "app_build_version": 254,
+    "appVersion": "CommCare Android, version \"2.38.1\"(439996). App v254. CommCare Version 2.38. Build 439996, built on: 2017-08-25"
+  },
+  "is_phone_submission": true,
+  "initial_processing_complete": true,
+  "id": "76c23027-151a-40d1-8f15-c3644bc6aaec",
+  "form": {
+    "zone": "Ouelessebougou",
+    "village_sf_id": "Bananzole",
+    "village_name": "Bananzole",
+    "village": "IG739",
+    "sorgho-ajout": {
+      "as": "non"
+    },
+    "sf_id": "",
+    "recapitulatif_": {
+      "packet6-price": "0",
+      "packet13-type": "",
+      "packet1-sf": "",
+      "packet5-sf": "a0S0J00000RdDdS",
+      "packet12-sf": "",
+      "ins-sm-name": "",
+      "packet9-price": "0",
+      "packet13-size": "",
+      "packet14-type": "",
+      "packet10-type": "",
+      "ins-s-name": "",
+      "packet9-sf": "",
+      "sem-name": "",
+      "packet13-sf": "",
+      "pdsm-name": "Arachide PDS - Arachide Sans Semences, Gombo: 0.125",
+      "packet7-size": "",
+      "packet11-size": "",
+      "packet11-sf": "",
+      "packet7-price": "0",
+      "packet2-size": "",
+      "packet8-price": "0",
+      "packet1-size": "",
+      "packet6-sf": "",
+      "total_saving_goal": "10000",
+      "packet12-type": "",
+      "packet1-price": "0",
+      "packet14-size": "",
+      "pdsmi-name": "",
+      "ssp-name": "",
+      "weekly-savings": "500",
+      "packet2-price": "0",
+      "total_packets_price": "OK",
+      "pdsm-recap": "OK",
+      "remaining-weeks": "23",
+      "packet8-size": "",
+      "packet6-size": "",
+      "packet10-price": "0",
+      "packet4-price": "0",
+      "packet4-size": "",
+      "packet1-type": "",
+      "packet9-size": "",
+      "sa-name": "",
+      "packet5-price": "10000",
+      "packet10-sf": "",
+      "packet7-type": "",
+      "hybmi-name": "",
+      "packet3-sf": "",
+      "packet11-type": "",
+      "disk-ar-name": "",
+      "packet14-price": "0",
+      "packet13-price": "0",
+      "packet4-sf": "",
+      "packet8-type": "",
+      "packet10-size": "",
+      "insecticide": "Eforia",
+      "disk-so-name": "",
+      "packet3-size": "",
+      "packet11-price": "0",
+      "opvmi-name": "",
+      "packet6-type": "",
+      "packet12-size": "",
+      "packet5-type": "Arachide Sans Semences, Gombo",
+      "s-name": "",
+      "sm-name": "",
+      "packet9-type": "",
+      "packet12-price": "0",
+      "packet5-size": "0.125",
+      "savings": "434.7826086956522",
+      "disk-ma-name": "",
+      "packet2-type": "",
+      "packet2-sf": "",
+      "packet4-type": "",
+      "packet7-sf": "",
+      "packet8-sf": "",
+      "modd": "434.7826086956522",
+      "packet3-type": "",
+      "packet3-price": "0",
+      "packet14-sf": ""
+    },
+    "recapitulatif": {
+      "id_client_id_zone_zone_village_village_prnoms__nom_first_name_last_name_sex": "OK"
+    },
+    "rcapitulatif_-_infis_financires": {
+      "first-card-amount": "500",
+      "financial_planning": "OK",
+      "enrolled": "oui"
+    },
+    "noubliez_pas_dcrire_le_code_client_id_sur_le_papier": "",
+    "meta": {
+      "username": "56107",
+      "userID": "b0993825c6424d8f8bb9c683eebf030d",
+      "timeStart": "2017-12-17T18:44:53.612000Z",
+      "timeEnd": "2017-12-17T18:46:21.263000Z",
+      "location": {
+        "@xmlns": "http://commcarehq.org/xforms",
+        "#text": "11.977525243041812 -7.900411083995136 396.72 8.0"
+      },
+      "instanceID": "76c23027-151a-40d1-8f15-c3644bc6aaec",
+      "geo_point": null,
+      "deviceID": "353565088967695",
+      "commcare_version": "2.38.1",
+      "app_build_version": 254,
+      "appVersion": "CommCare Android, version \"2.38.1\"(439996). App v254. CommCare Version 2.38. Build 439996, built on: 2017-08-25",
+      "@xmlns": "http://openrosa.org/jr/xforms"
+    },
+    "groupe": {
+      "leader": "",
+      "groupe": "OUE-0437",
+      "group": "oui",
+      "aaa": "OK"
+    },
+    "disks": {
+      "disque": "non"
+    },
+    "demographic_infoss": {
+      "phone": "00000000",
+      "name": "REDACTED REDACTED",
+      "last_name": "REDACTED",
+      "gender": "Female",
+      "first_name": "REDACTED"
+    },
+    "client-id": "54019",
+    "choix_de_paquet": "PDSM",
+    "case": {
+      "update": {
+        "village": "IG739",
+        "last_name": "REDACTED",
+        "first_name": "REDACTED"
+      },
+      "close": "",
+      "@xmlns": "http://commcarehq.org/case/transaction/v2",
+      "@user_id": "b0993825c6424d8f8bb9c683eebf030d",
+      "@date_modified": "2017-12-17T18:46:21.263000Z",
+      "@case_id": "b24dad66dc954f3e9c6643161840919b"
+    },
+    "arach": {
+      "taillePDSM": "0.125",
+      "south_zone": "no",
+      "maraichagePDSM": "Gombo",
+      "VarietePDSM": "Arachide Sans Semences"
+    },
+    "Semoir-Service-Plan": {
+      "semoir-service-plan": "non",
+      "disque-infos": ""
+    },
+    "Semoir": {
+      "semoir": "non",
+      "question3": "OK",
+      "disque2_": ""
+    },
+    "@xmlns": "http://openrosa.org/formdesigner/2E1B50E1-28E4-4613-95B4-CF0243616E02",
+    "@version": "205",
+    "@uiVersion": "1",
+    "@name": "Enregistrement [en] ",
+    "#type": "data"
+  },
+  "edited_on": null,
+  "edited_by_user_id": null,
+  "domain": "nicolas-mann-test",
+  "build_id": "2affe09ef4484c95841066da4e2e825f",
+  "attachments": {
+    "form.xml": {
+      "url": "https://www.commcarehq.org/a/nicolas-mann-test/api/form/attachment/76c23027-151a-40d1-8f15-c3644bc6aaec/form.xml",
+      "length": 4300,
+      "content_type": "text/xml"
+    }
+  },
+  "archived": false,
+  "app_id": "51df0f469f2a3a673de9cd2c51720379",
+  "__query_params": {
+    "app_id": "51df0f469f2a3a673de9cd2c51720379"
+  }
+}
