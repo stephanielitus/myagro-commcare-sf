@@ -10,7 +10,7 @@ upsert('Client__c', 'Client_Code__c', fields(
   // relationship('Village__r', 'Village_Code__c' dataValue('form.village_sf_id')
 ));
 
-// How are savings goals uniquely IDed in Salesforce?
+// How are savings goals uniquely IDed in Salesforce?  Name (label is Savings Goal Name)
 // We could use the meta-instance-id from CommCare.
 upsert('Savings_Goal__c', 'SG_UUID__c', fields(
   field('SG_UUID__c', dataValue('form.???')),
@@ -21,6 +21,7 @@ upsert('Savings_Goal__c', 'SG_UUID__c', fields(
 ));
 
 // Where do goal items live in the form? Are they in a repeat block?
+// I do not know the CommCare lingo, but in the resulting .csv they are in columns packet1-sf, packet2-sf, etc.        
 // If they are not, how do you allow an infinite number of goal items?
 each('form.goal_items[*]',
   upsert('Goal_Item__c', 'GI_UUID__c', fields(
